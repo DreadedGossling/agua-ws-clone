@@ -18,16 +18,40 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: white;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@keyframes slide {
+  from {
+transform: translateX(0);
+  }
+  to {
+    transform: translateX(-80%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 80px 0;
+  background-color: #f4fcff;
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: flex;
+  animation: 15s slide linear infinite;
+}
+
+.logos-slide img {
+  height: 100px;
+  margin: 0 40px;
 }
