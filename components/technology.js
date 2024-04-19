@@ -3,12 +3,12 @@ import React from 'react'
 const Technology = () => {
   return (
     <>
-      <div className=' text-white bg-[#12130f] md:px-8 xl:px-40 2xl:px-[335px] lg:w-full py-20'>
-        <h2 className='text-center font-bold text-4xl'>Technology Integrations</h2>
+      <div className=' text-white bg-[#12130f] px-2 md:px-8 xl:px-40 2xl:px-[335px] lg:w-full py-10 lg:py-20'>
+        <h2 className='text-center font-bold text-3xl lg:text-4xl'>Technology Integrations</h2>
 
-        <div className='lg:flex w-full mt-12 px-20'>
+        <div className='lg:flex w-full mt-12 px-6 lg:px-20'>
 
-          <div className='lg:w-3/5 text-lg mt-6 mr-8'>
+          <div className='lg:w-3/5 text-lg mt-6 lg:mr-8'>
             <h1>
               AGUA ONE, our IoT gateway is enabling sustainable water management across the water value chain. This state-of-the-art solution offers numerous benefits to our customers. Key features which make our gateway stand out:
             </h1>

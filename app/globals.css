@@ -48,10 +48,23 @@ transform: translateX(0);
 
 .logos-slide {
   display: flex;
-  animation: 15s slide linear infinite;
+  animation: 10s slide linear infinite;
 }
 
 .logos-slide img {
   height: 100px;
-  margin: 0 40px;
+  margin: 0 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logos {
+    overflow: hidden;
+    padding: 20px 0;
+    background-color: #f4fcff;
+  }
+  .logos-slide img {
+    height: 80px;
+    margin: 0 15px;
+  }
+  
 }

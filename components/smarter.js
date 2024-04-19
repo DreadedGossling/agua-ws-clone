@@ -27,8 +27,8 @@ const Smarter = () => {
 
   return (
     <>
-      <div className='py-20 md:px-8 xl:px-40 2xl:px-[335px] lg:w-full bg-[#f4fcff]'>
-        <p className='font-bold text-4xl text-center  '>
+      <div className='py-10 lg:py-20 px-2 md:px-8 xl:px-40 2xl:px-[335px] lg:w-full bg-[#f4fcff]'>
+        <p className='font-bold text-3xl lg:text-4xl text-center  '>
           Make Your Water Infra Smarter
         </p>
 
@@ -38,15 +38,15 @@ const Smarter = () => {
               data.map((item, index) => {
                 return (
                   <div key={index} className='hover:scale-105 transition ease-in-out duration-500 '>
-                    <div class="w-60 h-[400px] p-6 bg-white ">
+                    <div className="w-44 md:w-60 h-[420px] p-6 bg-white ">
                       <img src={item.image} alt="alt" className='w-full h-44'/>
-                      <h5 class="mb-2 text-2xl font-bold text-black">
+                      <h5 className="mb-2 text-2xl font-bold text-black">
                         {item.name}
                       </h5>
-                      <p class="mb-3 text-sm leading-4 text-black">
+                      <p className="mb-3 text-sm leading-4 text-black">
                         {item.desc}
                       </p>
-                      <a href="#" class="mt-4 inline-flex items-center px-4 py-[6px] text-sm font-semibold text-center text-white bg-blue-600 rounded-md hover:bg-green-600">
+                      <a href="#" className="mt-4 inline-flex items-center px-4 py-[6px] text-sm font-semibold text-center text-white bg-blue-600 rounded-md hover:bg-green-600">
                         Learn more
                       </a>
                     </div>

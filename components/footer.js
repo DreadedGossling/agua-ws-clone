@@ -3,11 +3,11 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className='px-4 text-white bg-[#12130f] md:px-8 xl:px-40 2xl:px-[335px] lg:w-full py-20'>
+      <div className='text-white bg-[#12130f] px-2 md:px-8 xl:px-40 2xl:px-[335px] lg:w-full py-10 lg:py-20'>
 
         <div className='lg:flex mb-8 lg:space-x-4'>
 
-          <div className='w-1/3'>
+          <div className='lg:w-1/3'>
             <div>
               <h1 className=' font-bold text-xl'>
                 Head Office :
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className='w-1/3 mt-8 lg:mt-0'>
+          <div className='lg:w-1/3 mt-8 lg:mt-0'>
             <div>
               <h1 className=' font-bold text-xl'>
                 Follow Us On :
@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className='w-1/3  mt-8 lg:mt-0'>
+          <div className='lg:w-1/3  mt-8 lg:mt-0'>
             <h1 className=' font-bold text-xl'>
               Join our newsletter
             </h1>

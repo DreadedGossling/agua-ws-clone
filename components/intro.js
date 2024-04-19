@@ -3,10 +3,10 @@ import React from 'react'
 const Intro = () => {
   return (
     <>
-      <div className='bg-[#12130f] lg:flex justify-between px-4 md:px-8 xl:px-40 2xl:px-[335px] lg:w-full py-16 lg:space-x-4'>
+      <div className='bg-[#12130f] lg:flex justify-between px-2 md:px-8 xl:px-40 2xl:px-[335px] lg:w-full py-10 lg:py-20 lg:space-x-4'>
 
         <div className='lg:w-1/2'>
-          <p className='text-6xl font-extrabold text-white'>
+          <p className='text-4xl sm:text-5xl md:text-6xl font-extrabold text-white'>
             “Let’s make your
             {/* <br /> */}
             <span className='text-[#6fccdd]'> water visible </span>
